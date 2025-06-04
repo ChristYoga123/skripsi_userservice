@@ -1,0 +1,280 @@
+{
+    "App\\Http\\Controllers\\AuthController": {
+        "name": "App\\Http\\Controllers\\AuthController",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "register",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "login",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "respondWithToken",
+                "role": null,
+                "public": false,
+                "private": true,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "getUser",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "isAdmin",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 5,
+        "nbMethods": 5,
+        "nbMethodsPrivate": 1,
+        "nbMethodsPublic": 4,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 9,
+        "ccn": 5,
+        "ccnMethodMax": 3,
+        "externals": [
+            "App\\Http\\Controllers\\Controller",
+            "Illuminate\\Http\\Request",
+            "Illuminate\\Support\\Facades\\Validator",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "App\\Models\\User",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Http\\Request",
+            "Illuminate\\Support\\Facades\\Validator",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\Auth",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController"
+        ],
+        "parents": [
+            "App\\Http\\Controllers\\Controller"
+        ],
+        "implements": [],
+        "lcom": 4,
+        "length": 118,
+        "vocabulary": 57,
+        "volume": 688.28,
+        "difficulty": 3.74,
+        "effort": 2571.31,
+        "level": 0.27,
+        "bugs": 0.23,
+        "time": 143,
+        "intelligentContent": 184.24,
+        "number_operators": 19,
+        "number_operands": 99,
+        "number_operators_unique": 4,
+        "number_operands_unique": 53,
+        "cloc": 17,
+        "loc": 59,
+        "lloc": 42,
+        "mi": 81,
+        "mIwoC": 44.05,
+        "commentWeight": 36.95,
+        "kanDefect": 0.43,
+        "relativeStructuralComplexity": 225,
+        "relativeDataComplexity": 0.6,
+        "relativeSystemComplexity": 225.6,
+        "totalStructuralComplexity": 1125,
+        "totalDataComplexity": 3,
+        "totalSystemComplexity": 1128,
+        "package": "App\\Http\\Controllers\\",
+        "pageRank": 1,
+        "afferentCoupling": 0,
+        "efferentCoupling": 6,
+        "instability": 1,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "App\\Http\\Controllers\\": {
+        "name": "App\\Http\\Controllers\\",
+        "classes": [
+            "App\\Http\\Controllers\\AuthController"
+        ],
+        "outgoing_class_dependencies": [
+            "Illuminate\\Http\\Request",
+            "Illuminate\\Support\\Facades\\Validator",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "App\\Models\\User",
+            "Illuminate\\Support\\Facades\\Auth"
+        ],
+        "outgoing_package_dependencies": [
+            "Illuminate\\Http\\",
+            "Illuminate\\Support\\Facades\\",
+            "App\\Http\\Controllers\\Helpers\\",
+            "App\\Models\\"
+        ],
+        "abstraction": 0,
+        "instability": 1,
+        "dependent_instabilities": [],
+        "distance": 0,
+        "normalized_distance": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "tree": {
+        "name": "tree",
+        "depthOfInheritanceTree": 2,
+        "violations": {},
+        "_type": "Hal\\Metric\\ProjectMetric"
+    },
+    "composer": {
+        "name": "composer",
+        "packages": {
+            "laravel\/framework": {
+                "latest": "12.15.0",
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "https:\/\/laravel.com",
+                "description": "The Laravel Framework.",
+                "time": "2025-05-20T15:10:44+00:00",
+                "zip": "https:\/\/api.github.com\/repos\/laravel\/framework\/zipball\/2ef7fb183f18e547af4eb9f5a55b2ac1011f0b77",
+                "compare": true,
+                "type": "library",
+                "github_stars": 33627,
+                "github_watchers": 960,
+                "github_forks": 11378,
+                "github_open_issues": 87,
+                "download_total": 423285956,
+                "download_monthly": 9154019,
+                "download_daily": 342098,
+                "favers": 34098,
+                "name": "laravel\/framework",
+                "installed": "11.44.7",
+                "required": "^11.31",
+                "status": "outdated"
+            },
+            "laravel\/sanctum": {
+                "latest": "4.1.1",
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "",
+                "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
+                "time": "2025-04-23T13:03:38+00:00",
+                "zip": "https:\/\/api.github.com\/repos\/laravel\/sanctum\/zipball\/a360a6a1fd2400ead4eb9b6a9c1bb272939194f5",
+                "compare": true,
+                "type": "library",
+                "github_stars": 2836,
+                "github_watchers": 50,
+                "github_forks": 299,
+                "github_open_issues": 1,
+                "download_total": 130323516,
+                "download_monthly": 4202429,
+                "download_daily": 162102,
+                "favers": 2853,
+                "name": "laravel\/sanctum",
+                "installed": "4.1.1",
+                "required": "^4.0",
+                "status": "latest"
+            },
+            "laravel\/tinker": {
+                "latest": "2.10.1",
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "",
+                "description": "Powerful REPL for the Laravel framework.",
+                "time": "2025-01-27T14:24:01+00:00",
+                "zip": "https:\/\/api.github.com\/repos\/laravel\/tinker\/zipball\/22177cc71807d38f2810c6204d8f7183d88a57d3",
+                "compare": true,
+                "type": "library",
+                "github_stars": 7383,
+                "github_watchers": 36,
+                "github_forks": 131,
+                "github_open_issues": 0,
+                "download_total": 344456364,
+                "download_monthly": 8256052,
+                "download_daily": 328502,
+                "favers": 7415,
+                "name": "laravel\/tinker",
+                "installed": "2.10.1",
+                "required": "^2.9",
+                "status": "latest"
+            },
+            "php-open-source-saver\/jwt-auth": {
+                "latest": "2.8.2",
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "https:\/\/github.com\/PHP-Open-Source-Saver\/jwt-auth",
+                "description": "JSON Web Token Authentication for Laravel and Lumen",
+                "time": "2025-03-17T11:41:37+00:00",
+                "zip": "https:\/\/api.github.com\/repos\/PHP-Open-Source-Saver\/jwt-auth\/zipball\/9af3bd953b5671247c330562183e159f10700533",
+                "compare": true,
+                "type": "library",
+                "github_stars": 770,
+                "github_watchers": 16,
+                "github_forks": 115,
+                "github_open_issues": 20,
+                "download_total": 6741834,
+                "download_monthly": 241495,
+                "download_daily": 9602,
+                "favers": 775,
+                "name": "php-open-source-saver\/jwt-auth",
+                "installed": "2.3.0",
+                "required": "^2.3",
+                "status": "outdated"
+            },
+            "spatie\/laravel-permission": {
+                "latest": "6.18.0",
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "https:\/\/github.com\/spatie\/laravel-permission",
+                "description": "Permission handling for Laravel 8.0 and up",
+                "time": "2025-05-14T03:32:23+00:00",
+                "zip": "https:\/\/api.github.com\/repos\/spatie\/laravel-permission\/zipball\/3c05f04d12275dfbe462c8b4aae3290e586c2dde",
+                "compare": true,
+                "type": "library",
+                "github_stars": 12471,
+                "github_watchers": 191,
+                "github_forks": 1799,
+                "github_open_issues": 14,
+                "download_total": 64627397,
+                "download_monthly": 1954075,
+                "download_daily": 74686,
+                "favers": 12637,
+                "name": "spatie\/laravel-permission",
+                "installed": "6.17.0",
+                "required": "^6.17",
+                "status": "outdated"
+            }
+        },
+        "packages-installed": {
+            "laravel\/framework": "11.44.7",
+            "laravel\/sanctum": "4.1.1",
+            "laravel\/tinker": "2.10.1",
+            "php-open-source-saver\/jwt-auth": "2.3.0",
+            "spatie\/laravel-permission": "6.17.0"
+        },
+        "violations": {},
+        "_type": "Hal\\Metric\\ProjectMetric"
+    },
+    "searches": {
+        "name": "searches",
+        "violations": {},
+        "_type": "Hal\\Metric\\SearchMetric"
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics generated="2025-05-27T06:39:49" pdepend="@package_version@" ahh="2" andc="0" calls="29" ccn="9" ccn2="9" cloc="17" clsa="0" clsc="1" eloc="88" fanout="6" leafs="0" lloc="29" loc="121" maxDIT="2" ncloc="104" noc="1" nof="0" noi="0" nom="5" nop="1" roots="1">
+  <files>
+    <file name="D:\Kuliah\Project\user-service\app\Http\Controllers\AuthController.php" loc="121" cloc="17" eloc="88" lloc="29" ncloc="104"/>
+  </files>
+  <package name="App\Http\Controllers" noc="1" noi="0" nom="5" nof="0" cr="0.15" rcr="0.15">
+    <class name="AuthController" fqname="App\Http\Controllers\AuthController" start="11" end="120" loc="110" cloc="17" eloc="73" lloc="18" ncloc="93" dit="2" noam="5" nocc="0" noom="0" nom="5" cr="0.15" rcr="0.2775" ca="0" cbo="6" ce="6" impl="0" cis="4" csz="5" npm="4" vars="0" varsi="0" varsnp="0" wmc="9" wmci="9" wmcnp="8">
+      <file name="D:\Kuliah\Project\user-service\app\Http\Controllers\AuthController.php"/>
+      <method name="register" start="18" end="52" ccn="2" ccn2="2" loc="35" cloc="0" eloc="30" lloc="6" ncloc="35" npath="2" hnt="116" hnd="56" hv="673.65317095868" hd="7.0652173913043" hl="0.14153846153846" he="4759.5060991646" ht="264.41700550914" hb="0.094316281590074" hi="95.347833427998" mi="47.704375649942"/>
+      <method name="login" start="59" end="85" ccn="3" ccn2="3" loc="27" cloc="0" eloc="22" lloc="7" ncloc="27" npath="4" hnt="91" hnd="44" hv="496.80827729599" hd="8.8333333333333" hl="0.11320754716981" he="4388.4731161146" ht="243.80406200637" hb="0.089348590700596" hi="56.242446486339" mi="51.434181554815"/>
+      <method name="respondWithToken" start="94" end="101" ccn="1" ccn2="1" loc="8" cloc="0" eloc="7" lloc="1" ncloc="8" npath="1" hnt="26" hnd="19" hv="110.44611534953" hd="7.2" hl="0.13888888888889" he="795.21203051664" ht="44.178446139813" hb="0.02861106603899" hi="15.339738242991" mi="67.124392539797"/>
+      <method name="getUser" start="103" end="106" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="12" hnd="10" hv="39.863137138648" hd="6" hl="0.16666666666667" he="239.17882283189" ht="13.287712379549" hb="0.012843810659451" hi="6.6438561897747" mi="78.250368679746"/>
+      <method name="isAdmin" start="108" end="119" ccn="2" ccn2="2" loc="12" cloc="0" eloc="11" lloc="3" ncloc="12" npath="2" hnt="32" hnd="19" hv="135.93368043019" hd="11.666666666667" hl="0.085714285714286" he="1585.8929383523" ht="88.105163241793" hb="0.045330932758765" hi="11.651458322588" mi="62.07650733425"/>
+    </class>
+  </package>
+</metrics>
